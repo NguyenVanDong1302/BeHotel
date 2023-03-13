@@ -261,7 +261,9 @@
             width: 40px;
             height: 40px;
             position: absolute;
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             z-index: 1000;
             border-radius: 50%;
             i {
@@ -341,6 +343,7 @@
             .sign-up-btn {
                 background-color: #ed703a;
                 color: #ffffff;
+                margin-right: 10px
             }
             .read-aggrements {
                 font-size: 14px;
